@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlatCarouselWindowsPhone", "FlatCarouselWindowsPhone\FlatCarouselWindowsPhone.csproj", "{CBA5C16E-0887-475B-BD8F-2D28D084E61B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlatCarouselDemo", "FlatCarouselDemo\FlatCarouselDemo.csproj", "{55274886-15D6-4CF7-8B36-3595E264EAF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBA5C16E-0887-475B-BD8F-2D28D084E61B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBA5C16E-0887-475B-BD8F-2D28D084E61B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBA5C16E-0887-475B-BD8F-2D28D084E61B}.Debug|ARM.ActiveCfg = Debug|ARM
+		{CBA5C16E-0887-475B-BD8F-2D28D084E61B}.Debug|ARM.Build.0 = Debug|ARM
+		{CBA5C16E-0887-475B-BD8F-2D28D084E61B}.Debug|x86.ActiveCfg = Debug|x86
+		{CBA5C16E-0887-475B-BD8F-2D28D084E61B}.Debug|x86.Build.0 = Debug|x86
+		{CBA5C16E-0887-475B-BD8F-2D28D084E61B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBA5C16E-0887-475B-BD8F-2D28D084E61B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBA5C16E-0887-475B-BD8F-2D28D084E61B}.Release|ARM.ActiveCfg = Release|ARM
+		{CBA5C16E-0887-475B-BD8F-2D28D084E61B}.Release|ARM.Build.0 = Release|ARM
+		{CBA5C16E-0887-475B-BD8F-2D28D084E61B}.Release|x86.ActiveCfg = Release|x86
+		{CBA5C16E-0887-475B-BD8F-2D28D084E61B}.Release|x86.Build.0 = Release|x86
+		{55274886-15D6-4CF7-8B36-3595E264EAF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55274886-15D6-4CF7-8B36-3595E264EAF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55274886-15D6-4CF7-8B36-3595E264EAF3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{55274886-15D6-4CF7-8B36-3595E264EAF3}.Debug|ARM.ActiveCfg = Debug|ARM
+		{55274886-15D6-4CF7-8B36-3595E264EAF3}.Debug|ARM.Build.0 = Debug|ARM
+		{55274886-15D6-4CF7-8B36-3595E264EAF3}.Debug|ARM.Deploy.0 = Debug|ARM
+		{55274886-15D6-4CF7-8B36-3595E264EAF3}.Debug|x86.ActiveCfg = Debug|x86
+		{55274886-15D6-4CF7-8B36-3595E264EAF3}.Debug|x86.Build.0 = Debug|x86
+		{55274886-15D6-4CF7-8B36-3595E264EAF3}.Debug|x86.Deploy.0 = Debug|x86
+		{55274886-15D6-4CF7-8B36-3595E264EAF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55274886-15D6-4CF7-8B36-3595E264EAF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55274886-15D6-4CF7-8B36-3595E264EAF3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{55274886-15D6-4CF7-8B36-3595E264EAF3}.Release|ARM.ActiveCfg = Release|ARM
+		{55274886-15D6-4CF7-8B36-3595E264EAF3}.Release|ARM.Build.0 = Release|ARM
+		{55274886-15D6-4CF7-8B36-3595E264EAF3}.Release|ARM.Deploy.0 = Release|ARM
+		{55274886-15D6-4CF7-8B36-3595E264EAF3}.Release|x86.ActiveCfg = Release|x86
+		{55274886-15D6-4CF7-8B36-3595E264EAF3}.Release|x86.Build.0 = Release|x86
+		{55274886-15D6-4CF7-8B36-3595E264EAF3}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
