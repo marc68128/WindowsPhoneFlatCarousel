@@ -9,16 +9,17 @@
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
     d:DesignHeight="200" d:DesignWidth="480">
-    <Grid>
-     <ProgressBar IsIndeterminate="True" Foreground="Black" x:Name="ProgressBar"></ProgressBar>
-    <Canvas x:Name="LayoutCanvas" Background="Transparent">
-        <toolkit:GestureService.GestureListener>
-            <toolkit:GestureListener DragDelta="DragDelta" DragCompleted="DragCompleted" Flick="Flick" />
-        </toolkit:GestureService.GestureListener>
+    
+    <Grid x:Name="RootGrid" Background="{Binding ElementName=RootGrid, Path=Parent.Background}">
+        <ProgressBar IsIndeterminate="True" Foreground="{Binding ElementName=RootGrid, Path=Parent.Foreground}" x:Name="ProgressBar"></ProgressBar>
+       
+        <Canvas x:Name="LayoutCanvas" Background="Transparent">
+            <toolkit:GestureService.GestureListener>
+                <toolkit:GestureListener DragDelta="DragDelta" DragCompleted="DragCompleted" Flick="Flick" />
+            </toolkit:GestureService.GestureListener>
 
-    </Canvas>
-        <StackPanel x:Name="SelectionPinsStackPanel" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="10,5,10,5">
-
-        </StackPanel>
+        </Canvas>
+        
+        <StackPanel x:Name="SelectionPinsStackPanel" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="10,5,10,5" />
     </Grid>
 </UserControl>

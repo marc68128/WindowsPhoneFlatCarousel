@@ -5,6 +5,7 @@ using System.Net;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Navigation;
+using FlatCarouselWindowsPhone;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 
@@ -16,14 +17,16 @@ namespace FlatCarouselDemo
         public MainPage()
         {
             InitializeComponent();
-            Carousel.ListImagesCarousel = new Dictionary<string, string>
+            var carouselItemList = new List<CarouselItem>();
+            for (int i = 1; i < 6; i++)
             {
-                {"/Images/1.jpg", "Image1"},
-                 {"/Images/2.jpg", "Image2"},
-                  {"/Images/3.jpg", "Image3"},
-                   {"/Images/4.jpg", "Image4"},
-                    {"/Images/5.jpg", "Image5"},
-            };
+                carouselItemList.Add(new CarouselItem
+                {
+                    Path = "/Images/" + i + ".jpg", 
+                    Title = "Image " + i
+                });
+            }
+            Carousel.ListImagesCarousel = carouselItemList; 
         }
 
 

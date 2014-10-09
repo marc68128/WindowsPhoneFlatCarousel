@@ -29,7 +29,7 @@
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Height="250" Grid.Row="1">
-            <flatCarouselWindowsPhone:UCCarousel x:Name="Carousel"></flatCarouselWindowsPhone:UCCarousel>
+            <flatCarouselWindowsPhone:UCCarousel x:Name="Carousel" DisplayTitle="False"></flatCarouselWindowsPhone:UCCarousel>
         </Grid>
 
     </Grid>
